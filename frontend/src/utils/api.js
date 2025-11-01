@@ -67,7 +67,8 @@ const checkApiHealth = async (url, retries = 3) => {
 const detectApiUrl = async () => {
   // Try common Railway URL patterns (environment variable is handled in getApiUrlWithFallback)
   const possibleUrls = [
-    'https://filebackend-production-b095.up.railway.app', // Current known URL
+    'https://filebackend-production-a2b1.up.railway.app', // Current Railway URL
+    'https://filebackend-production-b095.up.railway.app', // Previous URL
     'https://filebackend-production.up.railway.app',
     // Add more patterns if you have other Railway URLs
   ]
